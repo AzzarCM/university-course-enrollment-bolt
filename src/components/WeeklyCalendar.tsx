@@ -49,7 +49,7 @@ export function WeeklyCalendar({ courses, enrolledCourseIds, onCourseClick }: We
     });
   });
 
-  const getEventPosition = (startMinutes: number, durationMinutes: number) => {
+  const  = (startMinutes: number, durationMinutes: number) => {
     const startHour = 8;
     const pixelsPerMinute = 80 / 60;
 
