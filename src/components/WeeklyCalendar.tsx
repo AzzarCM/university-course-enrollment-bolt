@@ -81,7 +81,7 @@ export function WeeklyCalendar({ courses, enrolledCourseIds, onCourseClick }: We
           ))}
         </div>
 
-        {DAYS.slice(1, 7).map((day, dayIndex) => {
+        {DAYS.slice(1, 6).map((day, dayIndex) => {
           const dayOfWeek = dayIndex + 1;
           const dayEvents = events.filter((e) => e.dayOfWeek === dayOfWeek);
 
