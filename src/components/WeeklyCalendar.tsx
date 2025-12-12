@@ -26,6 +26,8 @@ function timeToMinutes(time: string): number {
   return hours * 60 + minutes;
 }
 
+console.log("hello")
+
 export function WeeklyCalendar({ courses, enrolledCourseIds, onCourseClick }: WeeklyCalendarProps) {
   const events: CalendarEvent[] = [];
 
